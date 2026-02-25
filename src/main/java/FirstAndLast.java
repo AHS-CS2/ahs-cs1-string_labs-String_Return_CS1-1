@@ -1,9 +1,9 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
+//Name - Ashton Jays
+//Date - 2/23/26
+//Class - CSI
 //Lab  -
 
 import static java.lang.System.*;
@@ -14,25 +14,29 @@ public class FirstAndLast
 
 	public FirstAndLast(String s)
 	{
+		word = s;
 	}
 
-	public void setString(String s)
+	public void setString()
 	{
+		word = "null";
 	}
 
-	public String getFirst()
+	public String getFirst(String s)
 	{
-		return "";
+		String first = out.print(s.charAt(0));
+		return first;
 	}
 	
-	public String getLast()
+	public String getLast(String s)
 	{
-		return "";
+		String last = out.print(s.charAt(s.length));
+		return last;
 	}
 
  	public String toString()
  	{
- 		String output="";
- 		return output;
+ 		String output= word;
+ 		return "word :: " + output + "\n";
 	}
 }
