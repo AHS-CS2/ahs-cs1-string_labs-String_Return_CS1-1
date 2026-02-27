@@ -1,9 +1,9 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
+//Name - Ashton Jays
+//Date - 02/27/26
+//Class - CSI
 //Lab  -
 
 import static java.lang.System.*;
@@ -14,23 +14,27 @@ public class StringRipper
 	
 	public StringRipper()
 	{
+		word = "default";
 	}
 
 	public StringRipper(String s)
 	{
+		word = s;
 	}
 	
    public void setString(String s)
    {
+		word = s;
    }	
 
 	public String ripString(int x, int y)
 	{
-		return "";
+		String sub = word.substring(x, y);
+		return sub;
 	}
 
  	public String toString()
  	{
- 		return "\n\n";
+ 		return word + "\n\n";
 	}
 }
