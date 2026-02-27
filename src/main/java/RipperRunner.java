@@ -1,9 +1,9 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
+//Name - Ashton Jays
+//Date - 02/27/26
+//Class - CSI
 //Lab  - 
 
 import static java.lang.System.*;
