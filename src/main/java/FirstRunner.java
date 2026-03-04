@@ -1,8 +1,8 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
+//Name - Ashton Jays
+//Date - 02/24/26
 //Class -
 //Lab  -
 
@@ -17,6 +17,20 @@ public class FirstRunner
 		System.out.println( "last letter :: " + demo.getLast() );
 		
 		//add more test cases	
-		
+		demo = new FirstAndLast("World");
+		System.out.println( "first letter :: " + demo.getFirst() );
+		System.out.println( "last letter :: " + demo.getLast()) ;
+
+		demo = new FirstAndLast("JukeBox");
+		System.out.println( "first letter :: " + demo.getFirst() );
+		System.out.println( "last letter :: " + demo.getLast() );
+
+		demo = new FirstAndLast("TCEA");
+		System.out.println( "first letter :: " + demo.getFirst() );
+		System.out.println( "last letter :: " + demo.getLast() );
+
+		demo = new FirstAndLast("UIL");
+		System.out.println( "first letter ::" + demo.getFirst() );
+		System.out.println( "last letter :: " + demo.getLast() );
 	}
 }
