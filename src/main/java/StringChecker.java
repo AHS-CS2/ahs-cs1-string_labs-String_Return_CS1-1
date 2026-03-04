@@ -1,9 +1,9 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
-//Date -
-//Class -
+//Name - Ashton Jays
+//Date - 03/03/26
+//Class - CSI
 //Lab  -
 
 import static java.lang.System.*;
@@ -14,10 +14,12 @@ public class StringChecker
 
 	public StringChecker()
 	{
+		word = "default";
 	}
 
 	public StringChecker(String s)
 	{
+		word = s;
 	}
 
    public void setString(String s)
@@ -27,16 +29,30 @@ public class StringChecker
 
 	public boolean findLetter(char c)
 	{
-		return false;
+		if (word.indexOf(c) >= 0 && word.indexOf(c) <= word.length())
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 
 	public boolean findSubString(String s)
 	{
-		return false;
+		if (word.indexOf(s) >= 0 && word.indexOf(s) <= word.length())
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 
  	public String toString()
  	{
- 		return "\n\n";
+ 		return word + "\n\n";
 	}
 }
